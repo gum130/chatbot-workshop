@@ -5,7 +5,7 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 
 
 st.set_page_config(page_title="Chat with an expert on SJSU Open University", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with an expert on the works of Rabindranath Tagore")
+st.title("Chat with an expert on SJSU Open University")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
